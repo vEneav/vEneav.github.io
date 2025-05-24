@@ -1,0 +1,48 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Block Layout</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+    .top {
+      height: 10%;
+      background-color: #c0c0c0; /* Light gray */
+    }
+    .middle {
+      display: flex;
+      height: 80%;
+    }
+    .left {
+      width: 30%;
+      background-color: #3b5998; /* Blue */
+    }
+    .right {
+      width: 70%;
+      background-color: #4d5565; /* Gray */
+    }
+    .bottom {
+      display: flex;
+      height: 10%;
+    }
+    .bottom-left, .bottom-right {
+      width: 50%;
+      background-color: #4b1212; /* Maroon */
+    }
+  </style>
+</head>
+<body>
+  <div class="top"></div>
+  <div class="middle">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+  <div class="bottom">
+    <div class="bottom-left"></div>
+    <div class="bottom-right"></div>
+  </div>
+</body>
+</html>
